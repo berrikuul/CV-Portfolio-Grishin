@@ -15,22 +15,6 @@ function Hero() {
         AI-инструменты и коммерческие проекты.
       </p>
 
-      <div className="hero-buttons">
-        <a
-          href="/portfolio"
-          className="primary-btn"
-        >
-          Портфолио
-        </a>
-
-        <a
-          href="/about"
-          className="secondary-btn"
-        >
-          Резюме
-        </a>
-      </div>
-
       <div className="stats">
 
         <div className="stat-card">

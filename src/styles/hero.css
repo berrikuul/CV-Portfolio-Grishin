@@ -1,0 +1,101 @@
+.hero {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: var(--container);
+
+  margin: 0 auto;
+
+  padding: 0 30px;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  line-height: 1.1;
+
+  margin-bottom: 25px;
+}
+
+.hero p {
+  max-width: 700px;
+
+  color: var(--text-secondary);
+
+  font-size: 1.2rem;
+
+  line-height: 1.8;
+
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  background: var(--primary);
+  color: white;
+
+  padding: 14px 28px;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: var(--primary-hover);
+}
+
+.secondary-btn {
+  border: 1px solid var(--border);
+
+  padding: 14px 28px;
+
+  border-radius: 12px;
+}
+
+.stats {
+  margin-top: 80px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.stat-card {
+  background: white;
+
+  padding: 25px;
+
+  border-radius: var(--radius);
+
+  box-shadow: var(--shadow);
+
+  border: 1px solid var(--border);
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+}
+
+.stat-card p {
+  margin-top: 10px;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}

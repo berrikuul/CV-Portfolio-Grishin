@@ -1,0 +1,50 @@
+.page {
+  padding: 100px 10%;
+}
+
+.page h1 {
+  font-size: 3rem;
+
+  margin-bottom: 3rem;
+}
+
+.page h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page p {
+  color: var(--text-secondary);
+
+  line-height: 1.8;
+
+  margin-bottom: 1rem;
+}
+
+.page ul {
+  margin-left: 1.5rem;
+}
+
+.page li {
+  margin-bottom: 0.8rem;
+
+  color: #cbd5e1;
+}
+
+.projects-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 80px 5%;
+  }
+
+  .page h1 {
+    font-size: 2rem;
+  }
+}

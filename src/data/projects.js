@@ -31,6 +31,15 @@ const projects = [
     stack: ["React", "JavaScript", "CSS"],
     link: "https://react-web-application-neon.vercel.app/",
   },
+  
+  {
+  title: "React Admin Panel",
+  description:
+    "Веб-приложение для бронирования офисов и переговорных комнат с системой авторизации, ролями пользователей и административной панелью.",
+  stack: ["React", "JavaScript", "React Query", "LocalStorage"],
+  link: "https://react-admin-panel-mo772c1ek-artemiy-g-projects.vercel.app/",
+  featured: true,
+},
 ];
 
 export default projects;
